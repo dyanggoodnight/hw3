@@ -5,14 +5,14 @@ function setup() {
 
 function draw() {
   stroke(0);
-  for (var i = 20; i <= 400; i = i + 5) {
+  for (var i = 0; i <= 400; i = i + 10) {
     var startX = 400 - i;
     var startY = i;
     var endX = 400 + i;
     var endY = i;
     line(startX, startY, endX, endY);
   }
-  for (var i = 20; i <= 400; i = i + 5) {
+  for (var i = 0; i <= 400; i = i + 10) {
     var startXX = i;
     var startYY = 400 + i;
     var endXX = 800 - i;
